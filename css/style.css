@@ -23,6 +23,8 @@ body {
   background: var(--bg-color);
   color: var(--text-color);
 }
+
+/* header style */
 .header {
   position: fixed;
   top: 0;
@@ -57,6 +59,8 @@ body {
   cursor: pointer;
   display: none;
 }
+
+/* home style */
 section {
   min-height: 100vh;
   padding: 10rem 9% 2rem;
@@ -197,6 +201,7 @@ section {
   opacity: 0.8;
 }
 
+/* about style */
 .about {
   display: flex;
   justify-content: center;
@@ -259,3 +264,5 @@ span {
 .btn-box.btns a::before {
   background: var(--second-bg-color);
 }
+
+/* education style */
