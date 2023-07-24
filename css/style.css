@@ -228,7 +228,6 @@ span {
   justify-content: center;
   align-items: center;
 }
-
 .about-img img {
   width: 90%;
   border-radius: 50%;
@@ -325,7 +324,6 @@ span {
 .education-content .content:hover::before {
   width: 100%;
 }
-
 .education-content .content .year {
   font-size: 1.5rem;
   color: var(--main-color);
@@ -360,7 +358,6 @@ span {
   font-size: 2.5rem;
   margin: 0 0 1.5rem;
 }
-
 .skills-box .skills-content {
   position: relative;
   border: 0.2rem solid var(--main-color);
@@ -386,7 +383,6 @@ span {
 .skills-content .progress {
   padding: 1rem 0;
 }
-
 .skills-content .progress h3 {
   font-size: 1.7rem;
   display: flex;
@@ -402,7 +398,6 @@ span {
   padding: 0.5rem;
   margin: 1rem 0;
 }
-
 .skills-content .progress .bar span {
   display: block;
   height: 100%;
@@ -433,3 +428,5 @@ span {
 .skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span {
   width: 45%;
 }
+
+/* contact style */
