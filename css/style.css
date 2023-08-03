@@ -101,17 +101,17 @@ section {
   background-image: linear-gradient(var(--main-color), var(--main-color));
   background-repeat: no-repeat;
   -webkit-background-clip: text;
-  background-position: -33rem 0;
+  /* background-position: -33rem 0; */
   animation: homeBgText 6s linear infinite;
   animation-delay: 2s;
 }
 .home-content .text-animate h3::before {
   content: "";
   position: absolute;
-  top: 0;
+  top: 3px;
   left: 0;
   width: 0;
-  height: 100%;
+  height: 15%;
   border-right: 2px solid var(--main-color);
   z-index: -1;
   animation: homeCursorText 6s linear infinite;
@@ -583,6 +583,10 @@ span {
   .home {
     padding: 0 4%;
   }
+  .home-imgHover {
+    pointer-events: none;
+    opacity: 0.6;
+  }
   .footer {
     padding: 2rem 4%;
   }
@@ -638,11 +642,7 @@ span {
     transform: translateX(0);
     transition-delay: 0.25s;
   }
-  .home-imgHover {
-    pointer-events: none;
-    background: var(--bg-color);
-    opacity: 0.6;
-  }
+  
 }
 @media (max-width: 520px) {
   html {
